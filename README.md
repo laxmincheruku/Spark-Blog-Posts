@@ -1,4 +1,4 @@
-## Spark-Blog-Posts
+# Spark-Blog-Posts
 # This series targets small and subtle challenges in sparksql
 
 #This is the first post of the series.
