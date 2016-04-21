@@ -2,7 +2,7 @@
 --  Scala File Name   : CreateDataFrame
 --  Author            : Laxminarayana Cheruku
 --  Creation Date     : 21/APR/2016
---  Usage             : Create DataFrame and Sql queries 
+--  Usage             : Create DataFrame and run SQL queries 
 -----------------------------------------------------------------------------
 package com.examples.sparksql
 
@@ -46,7 +46,7 @@ object CreateDataFrame {
     //Register "People" Table on DataFrame
     sample_df.registerTempTable("People")
     
-    //Now you can execute Queries on Table
+    //Now you can execute Queries on this Table
     val res = sqlContext.sql("select * from People where id > 3")
     res.show
     
