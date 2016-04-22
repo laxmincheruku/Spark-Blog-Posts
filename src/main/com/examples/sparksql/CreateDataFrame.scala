@@ -1,9 +1,9 @@
------------------------------------------------------------------------------
---  Scala File Name   : CreateDataFrame
---  Author            : Laxminarayana Cheruku
---  Creation Date     : 21/APR/2016
---  Usage             : Create DataFrame and run SQL queries 
------------------------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////
+//  Scala File Name   : CreateDataFrame
+//  Author            : Laxminarayana Cheruku
+//  Creation Date     : 21/APR/2016
+//  Usage             : Create DataFrame and run SQL queries 
+/////////////////////////////////////////////////////////////////////////////
 package com.examples.sparksql
 
 import org.apache.spark.SparkConf
