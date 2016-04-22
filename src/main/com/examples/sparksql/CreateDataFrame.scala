@@ -29,7 +29,7 @@ object CreateDataFrame {
     
     //Read Data and Create Row RDD
     val data_rdd = sc.textFile("G:\\Spark-Blog-Posts\\sample.csv")
-    val data_row_rdd = data_rdd.map(x => x.toString().split(",",-1)).map(p => Row.fromSeq(p.toSeq))
+    val data_row_rdd = data_rdd.map(x => x.toString().split(",")).map(p => Row.fromSeq(p.toSeq))
     
     //Create Schema RDD
     val schema_string = "name,id"
