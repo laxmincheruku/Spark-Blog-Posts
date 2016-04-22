@@ -14,7 +14,7 @@ object CreateDataFrame {
   def main(args: Array[String]){
     
     //Create Spark Conf
-    val sparkConf = new SparkConf().setAppName("Spark-Sql-Execution").setMaster("local")
+    val sparkConf = new SparkConf().setAppName("Create-DataFrame").setMaster("local")
     
     //Create Spark Context - sc
     val sc = new SparkContext(sparkConf)
