@@ -33,7 +33,7 @@ object CreateDataFrame {
     
     //Create Schema RDD
     val schema_string = "name,id"
-    val schema_rdd = StructType(schema_string.split(",",-1).map(fieldName => StructField(fieldName, StringType, true)) )
+    val schema_rdd = StructType(schema_string.split(",").map(fieldName => StructField(fieldName, StringType, true)) )
     
     //Create DataFrame
     val sample_df = sqlContext.createDataFrame(data_row_rdd, schema_rdd)
