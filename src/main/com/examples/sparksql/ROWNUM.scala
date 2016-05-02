@@ -42,7 +42,7 @@ object ROWNUM {
     sample_df.registerTempTable("People")
     
     //Now, implement "rownum" using limit
-    val res = sqlContext.sql("select * from People limit 2")
+    val res = sqlContext.sql("select * from People limit 3")
     res.show
     
   }
