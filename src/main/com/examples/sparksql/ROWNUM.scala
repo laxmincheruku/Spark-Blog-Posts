@@ -1,7 +1,7 @@
 /////////////////////////////////////////////////////////////////////////////
-//  Scala File Name   : CreateDataFrame
+//  Scala File Name   : ROWNUM
 //  Author            : Laxminarayana Cheruku
-//  Creation Date     : 26/APR/2016
+//  Creation Date     : 02/MAY/2016
 //  Usage             : Implement ROWNUM 
 /////////////////////////////////////////////////////////////////////////////
 package com.examples.sparksql
