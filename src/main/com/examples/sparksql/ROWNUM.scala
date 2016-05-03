@@ -38,11 +38,11 @@ object ROWNUM {
     //Create DataFrame
     val sample_df = sqlContext.createDataFrame(data_row_rdd, schema_rdd)
     
-    //Register "People" Table on DataFrame
-    sample_df.registerTempTable("People")
+    //Register "employees" Table on DataFrame
+    sample_df.registerTempTable("employees")
     
     //Now, implement "rownum" using limit
-    val res = sqlContext.sql("select * from People limit 3")
+    val res = sqlContext.sql("select * from employees limit 3")
     res.show
     
   }
